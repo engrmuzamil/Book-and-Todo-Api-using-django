@@ -1,0 +1,8 @@
+<h1>All books</h1>
+{% for book in Books %}
+<ul>
+<li>Title: {{ book.Title }}<br>
+Author: {{ book.Author }}<br>
+Shelf No: {{ book.ShelfNo }}</li>
+</ul>
+{% endfor %}
